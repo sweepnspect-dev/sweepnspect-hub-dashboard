@@ -9,7 +9,13 @@ class HubSocket {
     this.connected = false;
     this.staticMode = false;
     this._failCount = 0;
-    this.connect();
+
+    // On GitHub Pages (or any non-Hub host), go straight to static mode
+    if (location.hostname.includes('github.io') || location.hostname.includes('pages.dev')) {
+      this.enterStaticMode();
+    } else {
+      this.connect();
+    }
   }
 
   connect() {
