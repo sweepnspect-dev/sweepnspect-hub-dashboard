@@ -342,25 +342,24 @@ const App = {
 
   // ── Connection ────────────────────────────────────────
   setOnline(online) {
-    const cls = online ? 'online' : 'offline';
+    const color = online ? '#22c55e' : '#555';
     const text = online ? 'Connected' : 'Offline';
 
-    // Sidebar
     const sbDot = document.getElementById('sidebarDot');
     const sbLabel = document.getElementById('sidebarConnLabel');
-    if (sbDot) sbDot.className = `status-dot ${cls}`;
+    const hDot = document.getElementById('headerStatusDot');
+    if (sbDot) { sbDot.className = 'status-dot'; sbDot.style.background = color; }
     if (sbLabel) sbLabel.textContent = text;
+    if (hDot) hDot.style.background = color;
   },
 
   showStaticBanner(syncTime) {
-    // Update sidebar status — orange dot + "Static" label
     const sbDot = document.getElementById('sidebarDot');
     const sbLabel = document.getElementById('sidebarConnLabel');
-    if (sbDot) {
-      sbDot.className = 'status-dot';
-      sbDot.style.background = '#e8621a';
-    }
+    const hDot = document.getElementById('headerStatusDot');
+    if (sbDot) { sbDot.className = 'status-dot'; sbDot.style.background = '#e8621a'; }
     if (sbLabel) sbLabel.textContent = 'Static';
+    if (hDot) hDot.style.background = '#e8621a';
   },
 
   // ── Clock ─────────────────────────────────────────────
