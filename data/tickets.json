@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t-001",
+    "status": "resolved",
+    "priority": "high",
+    "customer": {
+      "name": "FB User test-user-123",
+      "email": "",
+      "subscriberId": "",
+      "facebookId": "test-user-123"
+    },
+    "subject": "Hey, I saw your post about the founding 25. How do I sign up?",
+    "description": "Hey, I saw your post about the founding 25. How do I sign up?",
+    "source": "facebook-message",
+    "aiAnalysis": null,
+    "resolution": "",
+    "createdAt": "2026-03-01T22:04:07.494Z",
+    "resolvedAt": "2026-03-01T22:50:18.067Z",
+    "messages": [],
+    "facebook": {
+      "pageId": "test-page",
+      "senderId": "test-user-123",
+      "messageId": "test-mid-001"
+    }
+  }
+]

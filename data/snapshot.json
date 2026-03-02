@@ -1,0 +1,33 @@
+{
+  "timestamp": 1772487083173,
+  "livechat": {
+    "active": 0,
+    "total": 0
+  },
+  "inbox": {
+    "unread": 0,
+    "total": 0,
+    "status": "static",
+    "lastCheck": null,
+    "byCategory": {}
+  },
+  "tickets": {
+    "open": 0,
+    "aiWorking": 0,
+    "needsReview": 0,
+    "total": 1,
+    "resolved": 1
+  },
+  "subscribers": {
+    "active": 0,
+    "trial": 0,
+    "churned": 0,
+    "total": 10
+  },
+  "revenue": {
+    "mrr": 0,
+    "monthRevenue": 0,
+    "monthRefunds": 0,
+    "totalAllTime": 0
+  }
+}

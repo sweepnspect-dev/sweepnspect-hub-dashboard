@@ -1,0 +1,172 @@
+[
+  {
+    "id": "s-004",
+    "name": "Matthew Bell",
+    "email": "roamingtaurin@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-01T22:10:52.453Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 6,
+      "currentTools": "SafetyCulture(Built My Own Report via this platform)",
+      "heardAbout": "Social Media",
+      "referredBy": "SweepNspect"
+    }
+  },
+  {
+    "id": "s-005",
+    "name": "Daniel Copenhaver  (Dan’s Chimney Service)",
+    "email": "chimneylogic@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-01T22:12:30.553Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 7,
+      "currentTools": "Photos and notes on my phone. Then I right up a report and email it to customer. ",
+      "heardAbout": "Social Media",
+      "referredBy": "Facebook"
+    }
+  },
+  {
+    "id": "s-006",
+    "name": "Jenner",
+    "email": "jenner.francis@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-01T22:33:34.188Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 1,
+      "currentTools": "Company cam",
+      "heardAbout": "Social Media",
+      "referredBy": "Jenner"
+    }
+  },
+  {
+    "id": "s-007",
+    "name": "Kaiden Kyle",
+    "email": "kaidenkyle12@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-01T22:59:29.928Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 4,
+      "currentTools": "Safety Culture, ChimSpect",
+      "heardAbout": "Social Media",
+      "referredBy": "facebook group"
+    }
+  },
+  {
+    "id": "s-008",
+    "name": "Justin Carter",
+    "email": "jcarter@creativeworksbyjustin.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-01T23:17:39.731Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 7,
+      "currentTools": "House call pro made my own inspection report checklist ",
+      "heardAbout": "Social Media",
+      "referredBy": "Justin Carter"
+    }
+  },
+  {
+    "id": "s-009",
+    "name": "Nathan carson",
+    "email": "ncarson2020@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-01T23:30:03.953Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 5,
+      "currentTools": "Used to use jotform, then fastfield, currently Service titan.",
+      "heardAbout": "Social Media",
+      "referredBy": "Your Facebook poat."
+    }
+  },
+  {
+    "id": "s-010",
+    "name": "Patrick  roberts",
+    "email": "starbrightchimney01@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-01T23:34:06.827Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 12,
+      "currentTools": "Other apps",
+      "heardAbout": "Social Media",
+      "referredBy": "No one saw your post"
+    }
+  },
+  {
+    "id": "s-011",
+    "name": "Christopher Mackey",
+    "email": "whoopnashchimneyspecialist@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-02T02:12:10.457Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 10,
+      "currentTools": "Housecall pro",
+      "heardAbout": "Social Media",
+      "referredBy": "Social media"
+    }
+  },
+  {
+    "id": "s-012",
+    "name": "Tyler Scott",
+    "email": "tyler_scott223@yahoo.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-02T02:39:43.443Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 12,
+      "currentTools": "Chim scan/ service pal",
+      "heardAbout": "Social Media",
+      "referredBy": "Brett Conklin "
+    }
+  },
+  {
+    "id": "s-013",
+    "name": "Ritchie Abromeit",
+    "email": "ritchieabromeit@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-02T17:41:11.417Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 17,
+      "currentTools": "Custom manual document",
+      "heardAbout": "Social Media",
+      "referredBy": "Ritchie Abromeit"
+    }
+  }
+]

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SweepNspect HQ — Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #1a1a2e;
+      --navy-light: #22223a;
+      --navy-lighter: #2a2a45;
+      --brick: #c0392b;
+      --brass: #d4a574;
+      --cream: #f5f0e8;
+      --green: #27ae60;
+      --yellow: #f39c12;
+      --purple: #8e44ad;
+      --cyan: #00bcd4;
+      --text: #e0dcd4;
+      --text-dim: #8a8680;
+      --border: #333345;
+      --radius: 8px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: auto !important; overflow-y: auto !important; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--navy);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 15px;
+    }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+    /* Header */
+    .hero { text-align: center; padding: 2.5rem 0; border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; }
+    .hero-logo { width: 56px; height: 56px; background: linear-gradient(135deg, var(--brick), var(--brass)); border-radius: 14px; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 800; color: #fff; margin-bottom: 0.75rem; }
+    .hero h1 { font-size: 1.8rem; font-weight: 800; color: var(--cream); }
+    .hero p { color: var(--text-dim); margin-top: 0.25rem; }
+    .hero-btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1.5rem; background: var(--brick); color: #fff; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+
+    /* Live status */
+    .status-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2.5rem; }
+    .status-box { background: var(--navy-light); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; border-top: 3px solid var(--cyan); }
+    .status-box.ok { border-top-color: var(--green); }
+    .status-box.warn { border-top-color: var(--yellow); }
+    .status-box.err { border-top-color: var(--brick); }
+    .status-box .label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); }
+    .status-box .val { font-size: 1.2rem; font-weight: 700; margin-top: 0.2rem; }
+    .status-box .sub { font-size: 0.8rem; color: var(--text-dim); margin-top: 0.1rem; }
+    .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; }
+    .dot.g { background: var(--green); box-shadow: 0 0 6px var(--green); }
+    .dot.r { background: var(--brick); }
+    .dot.y { background: var(--yellow); }
+
+    /* Section */
+    .section { margin-bottom: 3rem; }
+    .section-icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+    .section h2 { font-size: 1.4rem; font-weight: 700; color: var(--cream); margin-bottom: 0.75rem; }
+    .section p { margin-bottom: 1rem; }
+
+    /* Cards */
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin: 1rem 0; }
+    .card { background: var(--navy-light); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+    .card h3 { font-size: 1rem; color: var(--cream); margin-bottom: 0.5rem; }
+    .card p { font-size: 0.9rem; color: var(--text-dim); margin-bottom: 0; }
+    .card .num { font-size: 1.8rem; font-weight: 700; color: var(--brass); }
+
+    /* Feature list */
+    .features { list-style: none; margin: 1rem 0; }
+    .features li { padding: 0.6rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); display: flex; gap: 0.75rem; align-items: flex-start; }
+    .features li:last-child { border-bottom: none; }
+    .feat-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
+    .feat-text strong { color: var(--cream); }
+
+    /* FAQ */
+    .faq { margin: 1rem 0; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-q { padding: 0.8rem 0; cursor: pointer; font-weight: 600; color: var(--cream); display: flex; justify-content: space-between; align-items: center; }
+    .faq-q:hover { color: var(--brass); }
+    .faq-a { padding: 0 0 1rem; color: var(--text-dim); display: none; font-size: 0.9rem; }
+    .faq-item.open .faq-a { display: block; }
+    .faq-item.open .faq-arrow { transform: rotate(90deg); }
+    .faq-arrow { transition: transform 0.2s; color: var(--text-dim); }
+
+    /* Divider */
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .wrap { padding: 1rem; }
+      .status-row { grid-template-columns: 1fr 1fr; }
+      .cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="hero-logo">S</div>
+    <h1>SweepNspect HQ</h1>
+    <p>Your business command center — everything in one place</p>
+    <a href="/" class="hero-btn">Open Dashboard</a>
+  </div>
+
+  <!-- Live Status -->
+  <div class="status-row">
+    <div class="status-box" id="sb-hub">
+      <div class="label">System</div>
+      <div class="val" id="hubVal"><span class="dot g"></span>Checking...</div>
+      <div class="sub" id="hubSub">connecting</div>
+    </div>
+    <div class="status-box" id="sb-clauser">
+      <div class="label">AI Assistant</div>
+      <div class="val" id="clauserVal"><span class="dot r"></span>Checking...</div>
+      <div class="sub" id="clauserSub"></div>
+    </div>
+    <div class="status-box" id="sb-tickets">
+      <div class="label">Open Tickets</div>
+      <div class="val" id="ticketVal">-</div>
+      <div class="sub" id="ticketSub">loading</div>
+    </div>
+    <div class="status-box" id="sb-revenue">
+      <div class="label">Monthly Revenue</div>
+      <div class="val" id="revVal">-</div>
+      <div class="sub" id="revSub">loading</div>
+    </div>
+  </div>
+
+  <!-- What is HQ -->
+  <div class="section">
+    <div class="section-icon">&#127969;</div>
+    <h2>What is SweepNspect HQ?</h2>
+    <p>HQ is your private business dashboard. It runs on your own computer — no monthly fees, no cloud dependency, your data stays with you. Think of it as your digital office manager.</p>
+    <p>It pulls together everything you need to run your chimney inspection business: customer tickets, subscriber tracking, revenue numbers, and an AI assistant that helps triage incoming issues.</p>
+  </div>
+
+  <hr>
+
+  <!-- Dashboard sections -->
+  <div class="section">
+    <div class="section-icon">&#128202;</div>
+    <h2>What's on the Dashboard</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>&#9993; Tickets</h3>
+        <p>Every customer issue, complaint, or request shows up here. New tickets get automatically analyzed by Clauser (your AI), then moved to a review queue for you to handle.</p>
+      </div>
+      <div class="card">
+        <h3>&#128101; Subscribers</h3>
+        <p>Track your recurring customers — who's active, who's on a trial, who churned. See their plan, monthly value, and ticket history at a glance.</p>
+      </div>
+      <div class="card">
+        <h3>&#128176; Revenue</h3>
+        <p>See your MRR (monthly recurring revenue), one-time payments, refunds, and trends. Know exactly where the money stands.</p>
+      </div>
+      <div class="card">
+        <h3>&#128226; Marketing</h3>
+        <p>Website visitors, app downloads, ad campaign performance, and conversion tracking. See what's bringing in customers.</p>
+      </div>
+      <div class="card">
+        <h3>&#128276; Alerts</h3>
+        <p>Critical events pop up as alerts — a big customer churning, a crash spike in the app, an urgent ticket. You'll see toasts and a bell badge so nothing slips through.</p>
+      </div>
+      <div class="card">
+        <h3>&#129302; Clauser AI</h3>
+        <p>Your AI operations agent. It reads new tickets, analyzes the issue, suggests a fix, and moves it to your review queue. You can also chat with it directly from the dashboard.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- How it works -->
+  <div class="section">
+    <div class="section-icon">&#9881;</div>
+    <h2>How it Works (the simple version)</h2>
+    <ul class="features">
+      <li>
+        <span class="feat-icon">&#128187;</span>
+        <div class="feat-text"><strong>Runs on your PC</strong> — HQ lives in a tiny virtual machine on your Windows computer. It starts automatically and stays running in the background.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#127760;</span>
+        <div class="feat-text"><strong>Open in any browser</strong> — Just go to <a href="/" style="color:var(--brass)">localhost:8888</a> and you're in. Works on any device connected to your network.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#9889;</span>
+        <div class="feat-text"><strong>Real-time updates</strong> — The dashboard updates live. When a new ticket comes in or Clauser finishes an analysis, you see it instantly — no refreshing needed.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#128274;</span>
+        <div class="feat-text"><strong>Your data, your control</strong> — Everything is stored locally on your machine. No cloud accounts, no third-party access, no surprise bills.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#128241;</span>
+        <div class="feat-text"><strong>App crash reports</strong> — If the SweepNspect mobile app crashes for a user, it automatically creates a ticket in HQ with device info and what went wrong.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#128233;</span>
+        <div class="feat-text"><strong>SMS alerts (optional)</strong> — Get text messages for critical issues. Needs a Twilio account — off by default, easy to turn on when you're ready.</div>
+      </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <!-- What's new -->
+  <div class="section">
+    <div class="section-icon">&#127381;</div>
+    <h2>What's New in v1.1</h2>
+    <ul class="features">
+      <li>
+        <span class="feat-icon">&#128276;</span>
+        <div class="feat-text"><strong>Alert System</strong> — Critical events now trigger alerts with toasts, a bell badge, and optional SMS. Covers: urgent tickets, escalations, customer churn, app crashes, and AI going offline.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#128165;</span>
+        <div class="feat-text"><strong>Crash Reporting</strong> — The mobile app can now send crash reports directly to HQ. Duplicate crashes are automatically grouped and escalated if they happen too often.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#129302;</span>
+        <div class="feat-text"><strong>Smarter Clauser</strong> — The AI agent now uses a local proxy instead of needing an API key. It's faster to set up and works with your existing Claude subscription.</div>
+      </li>
+      <li>
+        <span class="feat-icon">&#128200;</span>
+        <div class="feat-text"><strong>Marketing Tab</strong> — Website traffic, app downloads, campaign performance, and conversion tracking — all in one view.</div>
+      </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <!-- FAQ -->
+  <div class="section">
+    <div class="section-icon">&#10067;</div>
+    <h2>Common Questions</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Do I need to be online for this to work? <span class="faq-arrow">&#9654;</span></div>
+        <div class="faq-a">No. HQ runs entirely on your local machine. The dashboard, tickets, subscribers, and AI all work without an internet connection. The only things that need internet are SMS alerts (Twilio) and if you want to use the AI chat feature.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How do I start HQ? <span class="faq-arrow">&#9654;</span></div>
+        <div class="faq-a">It should start automatically when you log in to Windows. If it's not running, open PowerShell and run the startup script at <code style="background:#0d1117;padding:2px 6px;border-radius:3px;color:var(--brass);font-size:0.85rem">D:\HiveTerm\scripts\vm\vm-start.ps1</code>. Then open your browser to localhost:8888.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What does Clauser actually do? <span class="faq-arrow">&#9654;</span></div>
+        <div class="faq-a">Clauser is an AI agent that watches for new support tickets. When one comes in, it reads the issue, figures out the likely cause and severity, suggests what to do, and adds its analysis to the ticket. You then review it and take action. Think of it as a smart assistant that does the first pass on every customer issue.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How do I set up SMS alerts? <span class="faq-arrow">&#9654;</span></div>
+        <div class="faq-a">You need a Twilio account (they have a free trial). Once you have it, set your Twilio credentials as environment variables before starting HQ, then enable SMS in the alert settings. You'll get texts for critical tickets, customer churn, and app crash spikes.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Is my data backed up? <span class="faq-arrow">&#9654;</span></div>
+        <div class="faq-a">Your data lives in JSON files on the VM's virtual disk. The disk image is at D:\VMs\sweepnspect-hq\disk.qcow2 — back up this file periodically. You can also copy the data files directly from the VM if needed.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What happens if the app crashes a lot? <span class="faq-arrow">&#9654;</span></div>
+        <div class="faq-a">The crash webhook groups identical crashes together. After 5 reports of the same crash within 24 hours, it automatically escalates to critical priority and fires an alert. You'll know about it immediately.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- AI Assistant -->
+  <div class="section">
+    <div class="section-icon">&#129302;</div>
+    <h2>Ask the AI Assistant</h2>
+    <p>Have a question about your business data? Ask below — the assistant has access to your live tickets, subscribers, and revenue numbers.</p>
+    <div id="guideAiChat"></div>
+  </div>
+
+  <div style="text-align:center; padding: 2rem 0; color: var(--text-dim); font-size: 0.8rem;">
+    SweepNspect HQ v1.1 &mdash; Black Collar Edition
+  </div>
+
+</div>
+
+<script src="/js/lib/ai-chat.js"></script>
+<script>
+// Live status
+async function refreshStatus() {
+  try {
+    const res = await fetch('/api/stats');
+    const s = await res.json();
+    const el = (id) => document.getElementById(id);
+
+    el('hubVal').innerHTML = '<span class="dot g"></span>Online';
+    el('sb-hub').className = 'status-box ok';
+    el('hubSub').textContent = `${s.subscribers.active} subscribers`;
+
+    el('ticketVal').textContent = s.tickets.open;
+    el('sb-tickets').className = s.tickets.open > 3 ? 'status-box warn' : 'status-box ok';
+    el('ticketSub').textContent = `${s.tickets.needsReview} need review`;
+
+    el('revVal').textContent = '$' + s.revenue.mrr.toLocaleString();
+    el('sb-revenue').className = 'status-box ok';
+    el('revSub').textContent = `$${s.revenue.monthRevenue.toLocaleString()} this month`;
+  } catch (e) {
+    document.getElementById('hubVal').innerHTML = '<span class="dot r"></span>Offline';
+    document.getElementById('sb-hub').className = 'status-box err';
+  }
+
+  try {
+    const res = await fetch('/api/clauser/status');
+    const c = await res.json();
+    const el = (id) => document.getElementById(id);
+    if (c.status === 'offline') {
+      el('clauserVal').innerHTML = '<span class="dot r"></span>Offline';
+      el('sb-clauser').className = 'status-box err';
+      el('clauserSub').textContent = 'Not running';
+    } else {
+      el('clauserVal').innerHTML = '<span class="dot g"></span>Online';
+      el('sb-clauser').className = 'status-box ok';
+      el('clauserSub').textContent = `${c.ticketsProcessed} tickets analyzed`;
+    }
+  } catch (e) {}
+}
+refreshStatus();
+setInterval(refreshStatus, 10000);
+
+// AI Chat
+if (typeof AIChat !== 'undefined') AIChat.init('guideAiChat');
+</script>
+</body>
+</html>
