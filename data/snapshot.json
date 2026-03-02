@@ -1,5 +1,5 @@
 {
-  "timestamp": 1772487083173,
+  "timestamp": 1772490075151,
   "livechat": {
     "active": 0,
     "total": 0
@@ -7,16 +7,14 @@
   "inbox": {
     "unread": 0,
     "total": 0,
-    "status": "static",
-    "lastCheck": null,
-    "byCategory": {}
+    "status": "static"
   },
   "tickets": {
     "open": 0,
-    "aiWorking": 0,
-    "needsReview": 0,
     "total": 1,
-    "resolved": 1
+    "resolved": 1,
+    "aiWorking": 0,
+    "needsReview": 0
   },
   "subscribers": {
     "active": 0,
