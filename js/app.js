@@ -353,24 +353,14 @@ const App = {
   },
 
   showStaticBanner(syncTime) {
-    // Update sidebar status
+    // Update sidebar status — orange dot + "Static" label
     const sbDot = document.getElementById('sidebarDot');
     const sbLabel = document.getElementById('sidebarConnLabel');
-    if (sbDot) sbDot.className = 'status-dot static';
-    if (sbLabel) sbLabel.textContent = 'Static Mode';
-
-    // Show banner
-    if (document.getElementById('staticBanner')) return;
-    const banner = document.createElement('div');
-    banner.id = 'staticBanner';
-    const timeStr = syncTime ? new Date(syncTime).toLocaleString('en-US', {
-      month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
-    }) : 'Unknown';
-    banner.innerHTML = `<span>Read-only &mdash; Genesis offline. Last synced: ${timeStr}</span>`;
-    banner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:999;background:#e8621a;color:white;text-align:center;padding:6px 12px;font-size:13px;font-weight:600;letter-spacing:0.3px;';
-    document.body.prepend(banner);
-    // Push content down
-    document.body.style.paddingTop = '32px';
+    if (sbDot) {
+      sbDot.className = 'status-dot';
+      sbDot.style.background = '#e8621a';
+    }
+    if (sbLabel) sbLabel.textContent = 'Static';
   },
 
   // ── Clock ─────────────────────────────────────────────
