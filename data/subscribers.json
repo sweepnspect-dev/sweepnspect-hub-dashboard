@@ -168,5 +168,22 @@
       "heardAbout": "Social Media",
       "referredBy": "Ritchie Abromeit"
     }
+  },
+  {
+    "id": "s-014",
+    "name": "Jason Knaffle      Straits Area Chimney",
+    "email": "jknaffle@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-03T01:23:46.460Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 12,
+      "currentTools": "Paper forms",
+      "heardAbout": "Other",
+      "referredBy": "You're company reached out to an older post of mine.  "
+    }
   }
 ]

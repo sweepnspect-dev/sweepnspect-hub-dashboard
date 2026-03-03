@@ -1,5 +1,17 @@
 [
   {
+    "id": "alert-mma0cv3c-xrrq",
+    "type": "founding-application",
+    "severity": "high",
+    "message": "Founding 25 application: Jason Knaffle      Straits Area Chimney (jknaffle@gmail.com) — 12 years sweeping",
+    "data": {
+      "subscriberId": "s-014",
+      "email": "jknaffle@gmail.com"
+    },
+    "timestamp": "2026-03-03T02:48:03.432Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mm9guvl4-pevo",
     "type": "founding-application",
     "severity": "high",
