@@ -202,5 +202,39 @@
       "heardAbout": "Social Media",
       "referredBy": ""
     }
+  },
+  {
+    "id": "s-016",
+    "name": "Marco A Tellerico",
+    "email": "mtellerico@higginsenergy.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-03T22:29:26.304Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 9,
+      "currentTools": "HouseCall Pro, IDEAL (pos)",
+      "heardAbout": "Social Media",
+      "referredBy": "Derek Hannah"
+    }
+  },
+  {
+    "id": "s-017",
+    "name": "Chase Mullikin ",
+    "email": "chase@kickingashchimney.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-03T22:39:50.782Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 5,
+      "currentTools": "Paper carbon copy forms",
+      "heardAbout": "Social Media",
+      "referredBy": "Facebook post"
+    }
   }
 ]

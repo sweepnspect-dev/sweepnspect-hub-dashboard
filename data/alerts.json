@@ -1,5 +1,29 @@
 [
   {
+    "id": "alert-mmb6y8fm-aerm",
+    "type": "founding-application",
+    "severity": "high",
+    "message": "Founding 25 application: Chase Mullikin  (chase@kickingashchimney.com) — 5 years sweeping",
+    "data": {
+      "subscriberId": "s-017",
+      "email": "chase@kickingashchimney.com"
+    },
+    "timestamp": "2026-03-03T22:40:24.370Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmb6kvxi-k6p8",
+    "type": "founding-application",
+    "severity": "high",
+    "message": "Founding 25 application: Marco A Tellerico (mtellerico@higginsenergy.com) — 9 years sweeping",
+    "data": {
+      "subscriberId": "s-016",
+      "email": "mtellerico@higginsenergy.com"
+    },
+    "timestamp": "2026-03-03T22:30:01.638Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mmb4qkkp-k1em",
     "type": "founding-application",
     "severity": "high",
