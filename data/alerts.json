@@ -1,5 +1,17 @@
 [
   {
+    "id": "alert-mmb4qkkp-k1em",
+    "type": "founding-application",
+    "severity": "high",
+    "message": "Founding 25 application: Casey Keith (fdchimney@gmail.com) — 5 years sweeping",
+    "data": {
+      "subscriberId": "s-015",
+      "email": "fdchimney@gmail.com"
+    },
+    "timestamp": "2026-03-03T21:38:27.625Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mma0cv3c-xrrq",
     "type": "founding-application",
     "severity": "high",

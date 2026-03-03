@@ -185,5 +185,22 @@
       "heardAbout": "Other",
       "referredBy": "You're company reached out to an older post of mine.  "
     }
+  },
+  {
+    "id": "s-015",
+    "name": "Casey Keith",
+    "email": "fdchimney@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-03T21:37:44.694Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 5,
+      "currentTools": "Inspektor",
+      "heardAbout": "Social Media",
+      "referredBy": ""
+    }
   }
 ]
