@@ -1,5 +1,17 @@
 [
   {
+    "id": "alert-mmb86v3u-opoi",
+    "type": "founding-application",
+    "severity": "high",
+    "message": "Founding 25 application: Jim Fletcher (fletcherchimneyservice@gmail.com) — 16 years sweeping",
+    "data": {
+      "subscriberId": "s-018",
+      "email": "fletcherchimneyservice@gmail.com"
+    },
+    "timestamp": "2026-03-03T23:15:06.618Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mmb6y8fm-aerm",
     "type": "founding-application",
     "severity": "high",

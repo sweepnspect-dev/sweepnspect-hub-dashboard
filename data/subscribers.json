@@ -236,5 +236,22 @@
       "heardAbout": "Social Media",
       "referredBy": "Facebook post"
     }
+  },
+  {
+    "id": "s-018",
+    "name": "Jim Fletcher",
+    "email": "fletcherchimneyservice@gmail.com",
+    "plan": "founding",
+    "mrr": 0,
+    "status": "lead",
+    "source": "founding-form",
+    "startDate": "2026-03-03T23:14:09.450Z",
+    "tickets": [],
+    "founding": {
+      "yearsSweeping": 16,
+      "currentTools": "Chimspect",
+      "heardAbout": "Social Media",
+      "referredBy": ""
+    }
   }
 ]
