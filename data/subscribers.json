@@ -113,7 +113,7 @@
     "email": "starbrightchimney01@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "rejected",
     "source": "founding-form",
     "startDate": "2026-03-01T23:34:06.827Z",
     "tickets": [],
@@ -122,7 +122,8 @@
       "currentTools": "Other apps",
       "heardAbout": "Social Media",
       "referredBy": "No one saw your post"
-    }
+    },
+    "rejectedAt": "2026-03-04T23:17:45.470Z"
   },
   {
     "id": "s-011",
