@@ -1,5 +1,41 @@
 [
   {
+    "id": "alert-mmcgv6ex-dbt1",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Kaiden Kyle (kaidenkyle12@gmail.com)",
+    "data": {
+      "subscriberId": "s-007",
+      "email": "kaidenkyle12@gmail.com"
+    },
+    "timestamp": "2026-03-04T20:05:44.122Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcgjxj6-23y3",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Justin Carter (jcarter@creativeworksbyjustin.com)",
+    "data": {
+      "subscriberId": "s-008",
+      "email": "jcarter@creativeworksbyjustin.com"
+    },
+    "timestamp": "2026-03-04T19:56:59.394Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcghrsz-azss",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Nathan carson (ncarson2020@gmail.com)",
+    "data": {
+      "subscriberId": "s-009",
+      "email": "ncarson2020@gmail.com"
+    },
+    "timestamp": "2026-03-04T19:55:18.659Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mmcg9d0v-p53g",
     "type": "founding-approved",
     "severity": "high",

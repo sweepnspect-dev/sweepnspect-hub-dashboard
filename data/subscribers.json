@@ -56,7 +56,7 @@
     "email": "kaidenkyle12@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-01T22:59:29.928Z",
     "tickets": [],
@@ -65,7 +65,8 @@
       "currentTools": "Safety Culture, ChimSpect",
       "heardAbout": "Social Media",
       "referredBy": "facebook group"
-    }
+    },
+    "approvedAt": "2026-03-04T20:05:44.120Z"
   },
   {
     "id": "s-008",
@@ -73,7 +74,7 @@
     "email": "jcarter@creativeworksbyjustin.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-01T23:17:39.731Z",
     "tickets": [],
@@ -82,7 +83,8 @@
       "currentTools": "House call pro made my own inspection report checklist ",
       "heardAbout": "Social Media",
       "referredBy": "Justin Carter"
-    }
+    },
+    "approvedAt": "2026-03-04T19:56:59.392Z"
   },
   {
     "id": "s-009",
@@ -90,7 +92,7 @@
     "email": "ncarson2020@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-01T23:30:03.953Z",
     "tickets": [],
@@ -99,7 +101,8 @@
       "currentTools": "Used to use jotform, then fastfield, currently Service titan.",
       "heardAbout": "Social Media",
       "referredBy": "Your Facebook poat."
-    }
+    },
+    "approvedAt": "2026-03-04T19:55:18.658Z"
   },
   {
     "id": "s-010",
