@@ -158,7 +158,7 @@
     "email": "ritchieabromeit@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-02T17:41:11.417Z",
     "tickets": [],
@@ -167,7 +167,8 @@
       "currentTools": "Custom manual document",
       "heardAbout": "Social Media",
       "referredBy": "Ritchie Abromeit"
-    }
+    },
+    "approvedAt": "2026-03-04T19:48:46.254Z"
   },
   {
     "id": "s-014",
@@ -175,7 +176,7 @@
     "email": "jknaffle@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-03T01:23:46.460Z",
     "tickets": [],
@@ -184,7 +185,8 @@
       "currentTools": "Paper forms",
       "heardAbout": "Other",
       "referredBy": "You're company reached out to an older post of mine.  "
-    }
+    },
+    "approvedAt": "2026-03-04T19:47:39.822Z"
   },
   {
     "id": "s-015",
@@ -192,7 +194,7 @@
     "email": "fdchimney@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-03T21:37:44.694Z",
     "tickets": [],
@@ -201,7 +203,8 @@
       "currentTools": "Inspektor",
       "heardAbout": "Social Media",
       "referredBy": ""
-    }
+    },
+    "approvedAt": "2026-03-04T19:46:27.787Z"
   },
   {
     "id": "s-016",
@@ -209,7 +212,7 @@
     "email": "mtellerico@higginsenergy.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-03T22:29:26.304Z",
     "tickets": [],
@@ -218,7 +221,8 @@
       "currentTools": "HouseCall Pro, IDEAL (pos)",
       "heardAbout": "Social Media",
       "referredBy": "Derek Hannah"
-    }
+    },
+    "approvedAt": "2026-03-04T19:45:23.137Z"
   },
   {
     "id": "s-017",
@@ -226,7 +230,7 @@
     "email": "chase@kickingashchimney.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-03T22:39:50.782Z",
     "tickets": [],
@@ -235,7 +239,8 @@
       "currentTools": "Paper carbon copy forms",
       "heardAbout": "Social Media",
       "referredBy": "Facebook post"
-    }
+    },
+    "approvedAt": "2026-03-04T19:44:31.870Z"
   },
   {
     "id": "s-018",
@@ -243,7 +248,7 @@
     "email": "fletcherchimneyservice@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-03T23:14:09.450Z",
     "tickets": [],
@@ -252,7 +257,8 @@
       "currentTools": "Chimspect",
       "heardAbout": "Social Media",
       "referredBy": ""
-    }
+    },
+    "approvedAt": "2026-03-04T19:44:22.579Z"
   },
   {
     "id": "s-019",
@@ -260,7 +266,7 @@
     "email": "bill@wolfmantx.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-04T03:50:14.542Z",
     "tickets": [],
@@ -269,7 +275,8 @@
       "currentTools": "Bear hands Pro",
       "heardAbout": "Social Media",
       "referredBy": "Bill Reynolds"
-    }
+    },
+    "approvedAt": "2026-03-04T19:44:12.462Z"
   },
   {
     "id": "s-020",
@@ -287,6 +294,6 @@
       "heardAbout": "Social Media",
       "referredBy": ""
     },
-    "approvedAt": "2026-03-04T19:18:30.356Z"
+    "approvedAt": "2026-03-04T19:44:04.229Z"
   }
 ]

@@ -1,5 +1,101 @@
 [
   {
+    "id": "alert-mmcg9d0v-p53g",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Ritchie Abromeit (ritchieabromeit@gmail.com)",
+    "data": {
+      "subscriberId": "s-013",
+      "email": "ritchieabromeit@gmail.com"
+    },
+    "timestamp": "2026-03-04T19:48:46.255Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcg7xrj-znzb",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Jason Knaffle      Straits Area Chimney (jknaffle@gmail.com)",
+    "data": {
+      "subscriberId": "s-014",
+      "email": "jknaffle@gmail.com"
+    },
+    "timestamp": "2026-03-04T19:47:39.823Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcg6e6k-a71k",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Casey Keith (fdchimney@gmail.com)",
+    "data": {
+      "subscriberId": "s-015",
+      "email": "fdchimney@gmail.com"
+    },
+    "timestamp": "2026-03-04T19:46:27.788Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcg50aq-djpq",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Marco A Tellerico (mtellerico@higginsenergy.com)",
+    "data": {
+      "subscriberId": "s-016",
+      "email": "mtellerico@higginsenergy.com"
+    },
+    "timestamp": "2026-03-04T19:45:23.138Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcg3wqo-17yk",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Chase Mullikin  (chase@kickingashchimney.com)",
+    "data": {
+      "subscriberId": "s-017",
+      "email": "chase@kickingashchimney.com"
+    },
+    "timestamp": "2026-03-04T19:44:31.872Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcg3pkl-pl8p",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Jim Fletcher (fletcherchimneyservice@gmail.com)",
+    "data": {
+      "subscriberId": "s-018",
+      "email": "fletcherchimneyservice@gmail.com"
+    },
+    "timestamp": "2026-03-04T19:44:22.581Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcg3hrj-b0kw",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Bill Reynolds (bill@wolfmantx.com)",
+    "data": {
+      "subscriberId": "s-019",
+      "email": "bill@wolfmantx.com"
+    },
+    "timestamp": "2026-03-04T19:44:12.463Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-mmcg3bev-kzkq",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Victor Imgarten (stlswp@accessus.net)",
+    "data": {
+      "subscriberId": "s-020",
+      "email": "stlswp@accessus.net"
+    },
+    "timestamp": "2026-03-04T19:44:04.231Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mmcf6fvb-9g3o",
     "type": "founding-approved",
     "severity": "high",
