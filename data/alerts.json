@@ -1,5 +1,41 @@
 [
   {
+    "id": "alert-mmch1bto-hcwv",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Matthew Bell (roamingtaurin@gmail.com)",
+    "data": {
+      "subscriberId": "s-004",
+      "email": "roamingtaurin@gmail.com"
+    },
+    "timestamp": "2026-03-04T20:10:31.068Z",
+    "acknowledged": true
+  },
+  {
+    "id": "alert-mmcgzd7t-asxq",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Daniel Copenhaver  (Dan’s Chimney Service) (chimneylogic@gmail.com)",
+    "data": {
+      "subscriberId": "s-005",
+      "email": "chimneylogic@gmail.com"
+    },
+    "timestamp": "2026-03-04T20:08:59.561Z",
+    "acknowledged": true
+  },
+  {
+    "id": "alert-mmcgxjog-b1z2",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Jenner (jenner.francis@gmail.com)",
+    "data": {
+      "subscriberId": "s-006",
+      "email": "jenner.francis@gmail.com"
+    },
+    "timestamp": "2026-03-04T20:07:34.624Z",
+    "acknowledged": true
+  },
+  {
     "id": "alert-mmcgv6ex-dbt1",
     "type": "founding-approved",
     "severity": "high",
@@ -9,7 +45,7 @@
       "email": "kaidenkyle12@gmail.com"
     },
     "timestamp": "2026-03-04T20:05:44.122Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcgjxj6-23y3",
@@ -21,7 +57,7 @@
       "email": "jcarter@creativeworksbyjustin.com"
     },
     "timestamp": "2026-03-04T19:56:59.394Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcghrsz-azss",
@@ -33,7 +69,7 @@
       "email": "ncarson2020@gmail.com"
     },
     "timestamp": "2026-03-04T19:55:18.659Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg9d0v-p53g",
@@ -45,7 +81,7 @@
       "email": "ritchieabromeit@gmail.com"
     },
     "timestamp": "2026-03-04T19:48:46.255Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg7xrj-znzb",
@@ -57,7 +93,7 @@
       "email": "jknaffle@gmail.com"
     },
     "timestamp": "2026-03-04T19:47:39.823Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg6e6k-a71k",
@@ -69,7 +105,7 @@
       "email": "fdchimney@gmail.com"
     },
     "timestamp": "2026-03-04T19:46:27.788Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg50aq-djpq",
@@ -81,7 +117,7 @@
       "email": "mtellerico@higginsenergy.com"
     },
     "timestamp": "2026-03-04T19:45:23.138Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg3wqo-17yk",
@@ -93,7 +129,7 @@
       "email": "chase@kickingashchimney.com"
     },
     "timestamp": "2026-03-04T19:44:31.872Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg3pkl-pl8p",
@@ -105,7 +141,7 @@
       "email": "fletcherchimneyservice@gmail.com"
     },
     "timestamp": "2026-03-04T19:44:22.581Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg3hrj-b0kw",
@@ -117,7 +153,7 @@
       "email": "bill@wolfmantx.com"
     },
     "timestamp": "2026-03-04T19:44:12.463Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcg3bev-kzkq",
@@ -129,7 +165,7 @@
       "email": "stlswp@accessus.net"
     },
     "timestamp": "2026-03-04T19:44:04.231Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmcf6fvb-9g3o",
@@ -141,7 +177,7 @@
       "email": "stlswp@accessus.net"
     },
     "timestamp": "2026-03-04T19:18:30.359Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmccrucz-2cyf",
@@ -153,7 +189,7 @@
       "email": "stlswp@accessus.net"
     },
     "timestamp": "2026-03-04T18:11:10.067Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmbi1rzm-kock",
@@ -165,7 +201,7 @@
       "email": "bill@wolfmantx.com"
     },
     "timestamp": "2026-03-04T03:51:05.458Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmb86v3u-opoi",
@@ -177,7 +213,7 @@
       "email": "fletcherchimneyservice@gmail.com"
     },
     "timestamp": "2026-03-03T23:15:06.618Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmb6y8fm-aerm",
@@ -189,7 +225,7 @@
       "email": "chase@kickingashchimney.com"
     },
     "timestamp": "2026-03-03T22:40:24.370Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmb6kvxi-k6p8",
@@ -201,7 +237,7 @@
       "email": "mtellerico@higginsenergy.com"
     },
     "timestamp": "2026-03-03T22:30:01.638Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mmb4qkkp-k1em",
@@ -213,7 +249,7 @@
       "email": "fdchimney@gmail.com"
     },
     "timestamp": "2026-03-03T21:38:27.625Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mma0cv3c-xrrq",
@@ -225,7 +261,7 @@
       "email": "jknaffle@gmail.com"
     },
     "timestamp": "2026-03-03T02:48:03.432Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm9guvl4-pevo",
@@ -237,7 +273,7 @@
       "email": "ritchieabromeit@gmail.com"
     },
     "timestamp": "2026-03-02T17:42:11.561Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8rlwps-mfog",
@@ -249,7 +285,7 @@
       "email": "tyler_scott223@yahoo.com"
     },
     "timestamp": "2026-03-02T05:55:22.720Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8rlwom-jh9i",
@@ -261,7 +297,7 @@
       "email": "whoopnashchimneyspecialist@gmail.com"
     },
     "timestamp": "2026-03-02T05:55:22.678Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8e0byf-g95m",
@@ -273,7 +309,7 @@
       "email": "starbrightchimney01@gmail.com"
     },
     "timestamp": "2026-03-01T23:34:41.031Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8dvcxe-nvty",
@@ -285,7 +321,7 @@
       "email": "ncarson2020@gmail.com"
     },
     "timestamp": "2026-03-01T23:30:49.010Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8dqdxe-0iy2",
@@ -297,7 +333,7 @@
       "email": "jcarter@creativeworksbyjustin.com"
     },
     "timestamp": "2026-03-01T23:26:57.026Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8crw0t-sa5p",
@@ -309,7 +345,7 @@
       "email": "kaidenkyle12@gmail.com"
     },
     "timestamp": "2026-03-01T23:00:07.517Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8bu2sk-b2g1",
@@ -321,7 +357,7 @@
       "email": "jenner.francis@gmail.com"
     },
     "timestamp": "2026-03-01T22:33:49.988Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8b3h3k-bv07",
@@ -333,7 +369,7 @@
       "email": "chimneylogic@gmail.com"
     },
     "timestamp": "2026-03-01T22:13:08.816Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8b0w6a-7vx0",
@@ -345,7 +381,7 @@
       "email": "roamingtaurin@gmail.com"
     },
     "timestamp": "2026-03-01T22:11:08.386Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm8arz23-4usn",
@@ -357,7 +393,7 @@
       "facebookSenderId": "test-user-123"
     },
     "timestamp": "2026-03-01T22:04:12.219Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm878nvb-3tqm",
@@ -369,7 +405,7 @@
       "email": "pkoaweb@gmail.com"
     },
     "timestamp": "2026-03-01T20:25:12.407Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm86mvb3-p59n",
@@ -381,7 +417,7 @@
       "email": "infinitegrok@gmail.com"
     },
     "timestamp": "2026-03-01T20:08:15.615Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm83yey7-f9qx",
@@ -393,7 +429,7 @@
       "email": "contact@sweepnspect.com"
     },
     "timestamp": "2026-03-01T18:53:15.439Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm73wbwy-5rgs",
@@ -404,7 +440,7 @@
       "sessionId": "chat-mm73w9qc-7taz"
     },
     "timestamp": "2026-03-01T02:03:52.018Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm73hqmx-f9fx",
@@ -415,7 +451,7 @@
       "sessionId": "chat-mm73hlic-n2km"
     },
     "timestamp": "2026-03-01T01:52:31.257Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm72vnfp-zcnf",
@@ -426,7 +462,7 @@
       "sessionId": "chat-mm72vl0n-u45t"
     },
     "timestamp": "2026-03-01T01:35:20.677Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm70th0x-w5aa",
@@ -437,7 +473,7 @@
       "sessionId": "chat-mm70tdjh-4xkb"
     },
     "timestamp": "2026-03-01T00:37:39.825Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm6zrfax-dk7c",
@@ -448,7 +484,7 @@
       "sessionId": "chat-mm6zre54-v7eg"
     },
     "timestamp": "2026-03-01T00:08:04.665Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm6yfzyy-x6pt",
@@ -459,7 +495,7 @@
       "sessionId": "chat-mm6yfy2q-cvuh"
     },
     "timestamp": "2026-02-28T23:31:11.962Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm6vb0s2-zhh8",
@@ -470,7 +506,7 @@
       "sessionId": "chat-mm6vaxmv-6ysd"
     },
     "timestamp": "2026-02-28T22:03:20.882Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm6jcrrf-nf68",
@@ -481,7 +517,7 @@
       "sessionId": "chat-mm6jcll2-vl1o"
     },
     "timestamp": "2026-02-28T16:28:47.115Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm6jax53-a707",
@@ -492,7 +528,7 @@
       "sessionId": "chat-mm6jaqjr-yjae"
     },
     "timestamp": "2026-02-28T16:27:20.775Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm6izej9-xbjx",
@@ -503,7 +539,7 @@
       "sessionId": "chat-mm6izb2r-5sd2"
     },
     "timestamp": "2026-02-28T16:18:23.445Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5vc6ro-363s",
@@ -521,7 +557,7 @@
       }
     },
     "timestamp": "2026-02-28T05:16:29.124Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5ujfgb-66qf",
@@ -532,7 +568,7 @@
       "sessionId": "chat-mm5ujcfh-p0bm"
     },
     "timestamp": "2026-02-28T04:54:07.355Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5u45jx-feyi",
@@ -543,7 +579,7 @@
       "sessionId": "chat-mm5u43zr-jg0k"
     },
     "timestamp": "2026-02-28T04:42:14.685Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5u3amt-f2yl",
@@ -554,7 +590,7 @@
       "sessionId": "chat-mm5u38jo-7ixe"
     },
     "timestamp": "2026-02-28T04:41:34.613Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5u1x73-pu7z",
@@ -565,7 +601,7 @@
       "sessionId": "chat-mm5u1uga-muti"
     },
     "timestamp": "2026-02-28T04:40:30.543Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tzv3u-1xpl",
@@ -576,7 +612,7 @@
       "sessionId": "chat-mm5tzrmb-3zyo"
     },
     "timestamp": "2026-02-28T04:38:54.522Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tyhmg-2e9y",
@@ -587,7 +623,7 @@
       "sessionId": "chat-mm5tybzo-izvd"
     },
     "timestamp": "2026-02-28T04:37:50.392Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5twlm2-rnmv",
@@ -598,7 +634,7 @@
       "sessionId": "chat-mm5twic0-dtuq"
     },
     "timestamp": "2026-02-28T04:36:22.250Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tvwwp-33ks",
@@ -609,7 +645,7 @@
       "sessionId": "chat-mm5tvtz1-h3u0"
     },
     "timestamp": "2026-02-28T04:35:50.233Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tupn8-rqpv",
@@ -620,7 +656,7 @@
       "sessionId": "chat-mm5tul94-tryw"
     },
     "timestamp": "2026-02-28T04:34:54.164Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5ttolg-owwb",
@@ -631,7 +667,7 @@
       "sessionId": "chat-mm5ttmbo-53s1"
     },
     "timestamp": "2026-02-28T04:34:06.148Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tszw3-a2d6",
@@ -642,7 +678,7 @@
       "sessionId": "chat-mm5tstpd-0ujt"
     },
     "timestamp": "2026-02-28T04:33:34.131Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tryt0-2ns5",
@@ -653,7 +689,7 @@
       "sessionId": "chat-mm5trvq0-ui97"
     },
     "timestamp": "2026-02-28T04:32:46.068Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tqxrd-dyeo",
@@ -664,7 +700,7 @@
       "sessionId": "chat-mm5tqrce-e5vg"
     },
     "timestamp": "2026-02-28T04:31:58.057Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tpwm6-8ue7",
@@ -675,7 +711,7 @@
       "sessionId": "chat-mm5tpts8-1475"
     },
     "timestamp": "2026-02-28T04:31:09.918Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tpef5-dxiq",
@@ -686,7 +722,7 @@
       "sessionId": "chat-mm5tp9bp-jvwn"
     },
     "timestamp": "2026-02-28T04:30:46.337Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tnbta-e5d5",
@@ -697,7 +733,7 @@
       "sessionId": "chat-mm5tnagz-ssu1"
     },
     "timestamp": "2026-02-28T04:29:09.646Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tcurs-8jvi",
@@ -708,7 +744,7 @@
       "sessionId": "chat-mm5tctq3-ha8c"
     },
     "timestamp": "2026-02-28T04:21:01.000Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5tbb3g-uele",
@@ -719,7 +755,7 @@
       "sessionId": "chat-mm5tb9ej-jjqs"
     },
     "timestamp": "2026-02-28T04:19:48.844Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5ta3vw-idsu",
@@ -730,7 +766,7 @@
       "sessionId": "chat-mm5ta0rz-yxxz"
     },
     "timestamp": "2026-02-28T04:18:52.844Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5smgv9-lt14",
@@ -741,7 +777,7 @@
       "sessionId": "chat-mm5smay9-mrij"
     },
     "timestamp": "2026-02-28T04:00:29.925Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5slm0m-wb49",
@@ -752,7 +788,7 @@
       "sessionId": "chat-mm5sli79-oqf0"
     },
     "timestamp": "2026-02-28T03:59:49.942Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5si088-0dj8",
@@ -763,7 +799,7 @@
       "sessionId": "chat-mm5shykk-42hz"
     },
     "timestamp": "2026-02-28T03:57:01.736Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5rgj73-xmad",
@@ -774,7 +810,7 @@
       "sessionId": "chat-mm5rghqy-a1w7"
     },
     "timestamp": "2026-02-28T03:27:53.392Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5r6x7j-ge5k",
@@ -785,7 +821,7 @@
       "sessionId": "chat-mm5r6stm-ok6o"
     },
     "timestamp": "2026-02-28T03:20:24.991Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5qfie1-uce3",
@@ -796,7 +832,7 @@
       "sessionId": "chat-mm5qfbrz-vehn"
     },
     "timestamp": "2026-02-28T02:59:06.073Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5n4q9j-jrlw",
@@ -807,7 +843,7 @@
       "sessionId": "chat-mm5n43ky-dy58"
     },
     "timestamp": "2026-02-28T01:26:44.215Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5mcwfy-zx2w",
@@ -818,7 +854,7 @@
       "sessionId": "chat-mm5mc9cc-aaw1"
     },
     "timestamp": "2026-02-28T01:05:05.854Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5lroau-p66f",
@@ -829,7 +865,7 @@
       "sessionId": "chat-mm5lrc7m-bdoz"
     },
     "timestamp": "2026-02-28T00:48:35.526Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5l38hp-utef",
@@ -840,7 +876,7 @@
       "sessionId": "chat-mm5l379x-i2p9"
     },
     "timestamp": "2026-02-28T00:29:35.293Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5kw5s9-cqyh",
@@ -851,7 +887,7 @@
       "sessionId": "chat-mm5kvu54-9myi"
     },
     "timestamp": "2026-02-28T00:24:05.193Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5kvimg-z8n3",
@@ -862,7 +898,7 @@
       "sessionId": "chat-mm5kvbv0-d6uw"
     },
     "timestamp": "2026-02-28T00:23:35.176Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5ku8bj-7zzr",
@@ -873,7 +909,7 @@
       "sessionId": "chat-mm5ktlr4-k4eb"
     },
     "timestamp": "2026-02-28T00:22:35.167Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5kr0lp-mviz",
@@ -884,7 +920,7 @@
       "sessionId": "chat-mm5kqe0b-inr9"
     },
     "timestamp": "2026-02-28T00:20:05.197Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5izc9n-9q71",
@@ -895,7 +931,7 @@
       "sessionId": "chat-mm5iz88x-ih2r"
     },
     "timestamp": "2026-02-27T23:30:34.331Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5ixesa-o89r",
@@ -906,7 +942,7 @@
       "sessionId": "chat-mm5ixcri-bt9n"
     },
     "timestamp": "2026-02-27T23:29:04.282Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5iuu6f-0znu",
@@ -917,7 +953,7 @@
       "sessionId": "chat-mm5iu9h0-woeu"
     },
     "timestamp": "2026-02-27T23:27:04.263Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5hxe6i-fv8y",
@@ -928,7 +964,7 @@
       "sessionId": "chat-mm5hx2rk-3ny6"
     },
     "timestamp": "2026-02-27T23:01:03.882Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5hu6ci-v97w",
@@ -939,7 +975,7 @@
       "sessionId": "chat-mm5htz76-ct7m"
     },
     "timestamp": "2026-02-27T22:58:33.762Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5gynrv-bug6",
@@ -950,7 +986,7 @@
       "sessionId": "chat-mm5gyc7z-3oma"
     },
     "timestamp": "2026-02-27T22:34:03.355Z",
-    "acknowledged": false
+    "acknowledged": true
   },
   {
     "id": "alert-mm5ffck9-bjf2",
@@ -961,6 +997,6 @@
       "sessionId": "chat-mm5ferkl-21fx"
     },
     "timestamp": "2026-02-27T21:51:02.745Z",
-    "acknowledged": false
+    "acknowledged": true
   }
 ]

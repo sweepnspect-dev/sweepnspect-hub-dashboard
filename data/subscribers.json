@@ -5,7 +5,7 @@
     "email": "roamingtaurin@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-01T22:10:52.453Z",
     "tickets": [],
@@ -14,7 +14,8 @@
       "currentTools": "SafetyCulture(Built My Own Report via this platform)",
       "heardAbout": "Social Media",
       "referredBy": "SweepNspect"
-    }
+    },
+    "approvedAt": "2026-03-04T20:10:31.067Z"
   },
   {
     "id": "s-005",
@@ -22,7 +23,7 @@
     "email": "chimneylogic@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-01T22:12:30.553Z",
     "tickets": [],
@@ -31,7 +32,8 @@
       "currentTools": "Photos and notes on my phone. Then I right up a report and email it to customer. ",
       "heardAbout": "Social Media",
       "referredBy": "Facebook"
-    }
+    },
+    "approvedAt": "2026-03-04T20:08:59.560Z"
   },
   {
     "id": "s-006",
@@ -39,7 +41,7 @@
     "email": "jenner.francis@gmail.com",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-01T22:33:34.188Z",
     "tickets": [],
@@ -48,7 +50,8 @@
       "currentTools": "Company cam",
       "heardAbout": "Social Media",
       "referredBy": "Jenner"
-    }
+    },
+    "approvedAt": "2026-03-04T20:07:34.623Z"
   },
   {
     "id": "s-007",
