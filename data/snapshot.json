@@ -1,5 +1,5 @@
 {
-  "timestamp": 1772646693092,
+  "timestamp": 1772648495145,
   "livechat": {
     "active": 0,
     "total": 0
@@ -20,7 +20,7 @@
     "active": 0,
     "trial": 0,
     "churned": 0,
-    "total": 16
+    "total": 17
   },
   "revenue": {
     "mrr": 0,
