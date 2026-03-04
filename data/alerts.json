@@ -1,5 +1,17 @@
 [
   {
+    "id": "alert-mmbi1rzm-kock",
+    "type": "founding-application",
+    "severity": "high",
+    "message": "Founding 25 application: Bill Reynolds (bill@wolfmantx.com) — 25 years sweeping",
+    "data": {
+      "subscriberId": "s-019",
+      "email": "bill@wolfmantx.com"
+    },
+    "timestamp": "2026-03-04T03:51:05.458Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mmb86v3u-opoi",
     "type": "founding-application",
     "severity": "high",
