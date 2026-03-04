@@ -277,7 +277,7 @@
     "email": "stlswp@accessus.net",
     "plan": "founding",
     "mrr": 0,
-    "status": "lead",
+    "status": "founding",
     "source": "founding-form",
     "startDate": "2026-03-04T18:11:00.476Z",
     "tickets": [],
@@ -286,6 +286,7 @@
       "currentTools": "InspectionFire",
       "heardAbout": "Social Media",
       "referredBy": ""
-    }
+    },
+    "approvedAt": "2026-03-04T19:18:30.356Z"
   }
 ]

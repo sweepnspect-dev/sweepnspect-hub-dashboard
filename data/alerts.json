@@ -1,5 +1,17 @@
 [
   {
+    "id": "alert-mmcf6fvb-9g3o",
+    "type": "founding-approved",
+    "severity": "high",
+    "message": "Founding member approved: Victor Imgarten (stlswp@accessus.net)",
+    "data": {
+      "subscriberId": "s-020",
+      "email": "stlswp@accessus.net"
+    },
+    "timestamp": "2026-03-04T19:18:30.359Z",
+    "acknowledged": false
+  },
+  {
     "id": "alert-mmccrucz-2cyf",
     "type": "founding-application",
     "severity": "high",
