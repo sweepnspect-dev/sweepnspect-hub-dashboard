@@ -95,12 +95,60 @@
         "from": "ai",
         "text": "I hear you're frustrated, and I get it. But J's not available right now — I'm your person for app questions. What do you need help with?",
         "ts": "2026-03-05T00:59:22.418Z"
+      },
+      {
+        "id": "m-mmcrnfzv-gj",
+        "from": "visitor",
+        "text": "Fuck you",
+        "ts": "2026-03-05T01:07:39.067Z"
+      },
+      {
+        "id": "m-mmcrni43-ai",
+        "from": "ai",
+        "text": "I'm not going to match that energy. If you want to talk about SweepNspect when you're ready, I'm here. Otherwise, no hard feelings.",
+        "ts": "2026-03-05T01:07:41.811Z"
+      },
+      {
+        "id": "m-mmcrnuj9-vf",
+        "from": "visitor",
+        "text": "Fuck your robot butt",
+        "ts": "2026-03-05T01:07:57.909Z"
+      },
+      {
+        "id": "m-mmcrnw9b-ai",
+        "from": "ai",
+        "text": "I'm going to step back here. If you want to actually use the app or have a real question about it, hit up contact@sweepnspect.com and we can start fresh. Take care.",
+        "ts": "2026-03-05T01:08:00.143Z"
+      },
+      {
+        "id": "m-mmcro4kv-7c",
+        "from": "visitor",
+        "text": "pos",
+        "ts": "2026-03-05T01:08:10.927Z"
+      },
+      {
+        "id": "m-mmcro64o-ai",
+        "from": "ai",
+        "text": "Not going to engage with that. If you genuinely want to talk about the app later, contact@sweepnspect.com is there. Good luck.",
+        "ts": "2026-03-05T01:08:12.936Z"
+      },
+      {
+        "id": "m-mmcrod03-jn",
+        "from": "visitor",
+        "text": "turd",
+        "ts": "2026-03-05T01:08:21.843Z"
+      },
+      {
+        "id": "m-mmcroefd-ai",
+        "from": "ai",
+        "text": "I'm done here. Email contact@sweepnspect.com if you want to have a real conversation.",
+        "ts": "2026-03-05T01:08:23.689Z"
       }
     ],
     "status": "active",
     "mode": "ai",
     "startedAt": "2026-03-05T00:51:57.463Z",
-    "lastActivity": "2026-03-05T00:59:22.418Z",
+    "lastActivity": "2026-03-05T01:08:23.689Z",
     "takeMessageMode": false,
     "transferredAt": null,
     "checkedIn": false,
