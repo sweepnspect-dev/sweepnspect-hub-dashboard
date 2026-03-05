@@ -145,7 +145,7 @@
         "ts": "2026-03-05T01:08:23.689Z"
       }
     ],
-    "status": "active",
+    "status": "ended",
     "mode": "ai",
     "startedAt": "2026-03-05T00:51:57.463Z",
     "lastActivity": "2026-03-05T01:08:23.689Z",
@@ -169,6 +169,7 @@
         "status": "pending",
         "extractedAt": "2026-03-05T00:57:53.158Z"
       }
-    ]
+    ],
+    "endedAt": "2026-03-05T02:36:52.844Z"
   }
 ]
