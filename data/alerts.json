@@ -1,5 +1,16 @@
 [
   {
+    "id": "alert-mmcr3brb-6jmi",
+    "type": "livechat-start",
+    "severity": "high",
+    "message": "Live chat started: Benny",
+    "data": {
+      "sessionId": "chat-mmcr39g7-9eby"
+    },
+    "timestamp": "2026-03-05T00:52:00.456Z",
+    "acknowledged": true
+  },
+  {
     "id": "alert-mmck29xa-ordi",
     "type": "founding-approved",
     "severity": "high",

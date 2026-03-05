@@ -1,1 +1,126 @@
-[]
+[
+  {
+    "id": "chat-mmcr39g7-9eby",
+    "visitor": {
+      "name": "Benny",
+      "email": ""
+    },
+    "messages": [
+      {
+        "id": "m-mmcr6yp1-ui",
+        "from": "visitor",
+        "text": "hi",
+        "ts": "2026-03-05T00:54:50.149Z"
+      },
+      {
+        "id": "m-mmcr70gf-ai",
+        "from": "ai",
+        "text": "Hey Benny, what's up? How can I help with SweepNspect?",
+        "ts": "2026-03-05T00:54:52.431Z"
+      },
+      {
+        "id": "m-mmcr96ce-gi",
+        "from": "visitor",
+        "text": "I want to talk to the boss man",
+        "ts": "2026-03-05T00:56:33.374Z"
+      },
+      {
+        "id": "m-mmcr98dw-ai",
+        "from": "ai",
+        "text": "Ha, J's the guy — he's the founder and built the whole thing. What's on your mind? I can help with most stuff, or I can loop him in if you need to talk directly.",
+        "ts": "2026-03-05T00:56:36.020Z"
+      },
+      {
+        "id": "m-mmcr9r04-3p",
+        "from": "visitor",
+        "text": "you heard me",
+        "ts": "2026-03-05T00:57:00.148Z"
+      },
+      {
+        "id": "m-mmcr9shp-ai",
+        "from": "ai",
+        "text": "Got it — let me get J to hop in and chat with you directly.",
+        "ts": "2026-03-05T00:57:02.077Z"
+      },
+      {
+        "id": "m-mmcraunb-handoff",
+        "from": "ai",
+        "text": "Here he is now — you're in good hands!",
+        "ts": "2026-03-05T00:57:51.527Z"
+      },
+      {
+        "id": "m-mmcraunb-xo",
+        "from": "agent",
+        "text": "Hi Benny. Don't be rude or entitled. You don't get a direct line to me without being a founding member.",
+        "ts": "2026-03-05T00:57:51.527Z"
+      },
+      {
+        "id": "m-mmcrawmr-handback",
+        "from": "ai",
+        "text": "J's stepped away — I'm here if you need anything else!",
+        "ts": "2026-03-05T00:57:54.099Z"
+      },
+      {
+        "id": "m-mmcrb5jk-g5",
+        "from": "visitor",
+        "text": "That was rude",
+        "ts": "2026-03-05T00:58:05.648Z"
+      },
+      {
+        "id": "m-mmcrb7a4-ai",
+        "from": "ai",
+        "text": "You're right, my bad — that wasn't the vibe we go for. What can I help you with?",
+        "ts": "2026-03-05T00:58:07.900Z"
+      },
+      {
+        "id": "m-mmcrc30d-td",
+        "from": "visitor",
+        "text": "Why was he such a jerk. Let me talk to him again",
+        "ts": "2026-03-05T00:58:49.021Z"
+      },
+      {
+        "id": "m-mmcrc56j-ai",
+        "from": "ai",
+        "text": "I get it, that didn't land right. J runs pretty lean and handles Founding 25 members and enterprise stuff directly — everyone else goes through me. Not an excuse for how it came across though. What do you actually need help with on the app side? I'm here to sort it out.",
+        "ts": "2026-03-05T00:58:51.835Z"
+      },
+      {
+        "id": "m-mmcrcqi5-2k",
+        "from": "visitor",
+        "text": "Him now ROBOT",
+        "ts": "2026-03-05T00:59:19.469Z"
+      },
+      {
+        "id": "m-mmcrcss2-ai",
+        "from": "ai",
+        "text": "I hear you're frustrated, and I get it. But J's not available right now — I'm your person for app questions. What do you need help with?",
+        "ts": "2026-03-05T00:59:22.418Z"
+      }
+    ],
+    "status": "active",
+    "mode": "ai",
+    "startedAt": "2026-03-05T00:51:57.463Z",
+    "lastActivity": "2026-03-05T00:59:22.418Z",
+    "takeMessageMode": false,
+    "transferredAt": null,
+    "checkedIn": false,
+    "agentNotes": [
+      {
+        "type": "new_info",
+        "text": "Only founding members get direct access to J (founder). Non-members should not be offered direct contact.",
+        "confidence": 0.9,
+        "id": "note-mmcravwm-a4",
+        "status": "pending",
+        "extractedAt": "2026-03-05T00:57:53.158Z"
+      },
+      {
+        "type": "correction",
+        "text": "AI should not promise direct founder access to regular customers without verification of founding member status.",
+        "confidence": 0.85,
+        "id": "note-mmcravwm-1u",
+        "status": "pending",
+        "extractedAt": "2026-03-05T00:57:53.158Z"
+      }
+    ]
+  }
+]
